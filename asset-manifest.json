@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ArthurChenCoding/react-tutorial/static/css/main.2cb8c73e.css",
+    "main.js": "/ArthurChenCoding/react-tutorial/static/js/main.ebc57940.js",
+    "index.html": "/ArthurChenCoding/react-tutorial/index.html",
+    "main.2cb8c73e.css.map": "/ArthurChenCoding/react-tutorial/static/css/main.2cb8c73e.css.map",
+    "main.ebc57940.js.map": "/ArthurChenCoding/react-tutorial/static/js/main.ebc57940.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cb8c73e.css",
+    "static/js/main.ebc57940.js"
+  ]
+}
