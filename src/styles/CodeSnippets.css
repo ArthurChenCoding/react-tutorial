@@ -1,7 +1,7 @@
 .code-snippets {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 100%;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .code-snippet {
@@ -9,15 +9,6 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   overflow: hidden;
-  background-color: var(--background);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-}
-
-.code-snippet:hover {
-  transform: translateY(-5px);
 }
 
 .code-header {
@@ -30,19 +21,26 @@
 }
 
 .code-header button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
+  font-size: 12px;
   padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 4px;
 }
 
-.code-header button:hover {
-  background-color: #45a049;
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .code-snippets {
+    padding: 10px;
+  }
+
+  .code-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .code-header button {
+    margin-top: 10px;
+  }
 }

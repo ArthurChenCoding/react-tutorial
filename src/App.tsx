@@ -17,14 +17,16 @@ const App: React.FC = () => {
       <Router>
         <div className="App">
           <Navigation onNavClick={() => {}} />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/concepts" element={<ConceptsShowcase />} />
-            <Route path="/snippets" element={<CodeSnippets />} />
-            <Route path="/playground" element={<InteractivePlayground />} />
-            <Route path="/performance" element={<PerformanceMetrics />} />
-            <Route path="/about" element={<About />} />
-          </Routes>
+          <main className="content">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/concepts" element={<ConceptsShowcase />} />
+              <Route path="/snippets" element={<CodeSnippets />} />
+              <Route path="/playground" element={<InteractivePlayground />} />
+              <Route path="/performance" element={<PerformanceMetrics />} />
+              <Route path="/about" element={<About />} />
+            </Routes>
+          </main>
         </div>
       </Router>
     </Provider>

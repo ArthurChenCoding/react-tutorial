@@ -1,7 +1,7 @@
 .interactive-playground {
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: 100%;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .example-selector {
@@ -17,13 +17,13 @@
 
 .interactive-code {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 20px;
 }
 
 .code-editor,
 .code-preview {
-  flex: 1;
+  width: 100%;
   border: 1px solid #ccc;
   border-radius: 4px;
   overflow: hidden;
@@ -37,4 +37,15 @@
 .code-preview {
   padding: 20px;
   background-color: #f8f8f8;
+}
+
+@media (min-width: 768px) {
+  .interactive-code {
+    flex-direction: row;
+  }
+
+  .code-editor,
+  .code-preview {
+    width: 50%;
+  }
 }
