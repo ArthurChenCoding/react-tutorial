@@ -1,5 +1,5 @@
 # React tutorial website
-This a website project used react to react key concepts
+This a website project used react to react key concepts, can be visited at https://arthurchencoding.github.io
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
