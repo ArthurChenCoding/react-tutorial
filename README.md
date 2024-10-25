@@ -1,5 +1,5 @@
-# This a website project used react to react key concepts
-
+# React tutorial website
+This a website project used react to react key concepts
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
